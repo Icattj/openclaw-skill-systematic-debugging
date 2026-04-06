@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: systematic-debugging
 description: 4-phase root cause investigation for any bug, test failure, or unexpected behavior. Use when encountering ANY technical issue — bugs, crashes, test failures, performance problems, integration errors. Enforces finding root cause BEFORE attempting fixes. NO random fixes allowed.
@@ -83,3 +87,13 @@ If after 30 minutes of investigation you can't isolate:
 - Ask for help — describe what you've tried and ruled out
 - It may be an environment issue, not a code issue
 - It may be a race condition or timing-dependent bug (hardest to debug)
+
+## Installation
+
+```bash
+cp -r systematic-debugging/ ~/.openclaw/workspace/skills/systematic-debugging/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
